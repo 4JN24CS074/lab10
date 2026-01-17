@@ -1,0 +1,18 @@
+git config --global --replace-all user.name JohnDoe
+git config --global --replace-all user.email kshamabv24@gmail.com
+
+git init
+
+git add 1.c
+git commit -m "1 saved"
+
+git add "jan file"
+git commit -m "jan committed"
+
+git add "may file"
+git commit -m "may committed"
+
+git add "feb file"
+git commit -m "feb committed"
+
+git log --author "JohnDoe" --since "2023-01-01" --until "2023-12-31"
